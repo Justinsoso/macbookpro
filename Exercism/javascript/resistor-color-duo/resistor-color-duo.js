@@ -6,3 +6,5 @@
 export const value = () => {
   throw new Error("Remove this statement and implement this function");
 };
+
+export const value = input => input.map(i => COLORS.indexOf(i)).join('').slice(0,2) | 0;
